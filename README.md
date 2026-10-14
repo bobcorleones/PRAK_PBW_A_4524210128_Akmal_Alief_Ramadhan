@@ -1,5 +1,5 @@
 <div align="center">
-# Prak_PBW_A_Railene_24081
+# Prak_PBW_A_Akmal_4524210128
 
 # "PRAKTIKUM PBW – A"
 
@@ -13,7 +13,7 @@
 
 **Disusun Oleh**
 
-Railene Akbillah Ramadhan Haryanto - 4524210081
+Akmal Alief Ramadhan- 4524210128
 
 **Dosen Pengampu**
 
