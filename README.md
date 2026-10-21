@@ -51,10 +51,11 @@ Tugas 2 Biodata
 ---
 
 ### 4. Tugas Pertemuan 04
-*Deskripsi: Latihan dan penugasan materi praktikum pertemuan keempat.*
+
 
 **📸 Tampilan Hasil Project:**
-*(Hapus teks ini -> Paste / Drag & Drop Screenshot web Pertemuan 04 di sini)*
+<img width="1360" height="669" alt="image" src="https://github.com/user-attachments/assets/aee91249-e4c0-422a-ad5b-0b96968dc5e9" />
+
 
 ---
 
