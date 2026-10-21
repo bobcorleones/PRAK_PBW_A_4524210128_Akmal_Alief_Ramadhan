@@ -32,7 +32,8 @@ Berikut adalah hasil dari berbagai tugas praktikum beserta dokumentasi tampilann
 *Deskripsi: Tugas dasar praktikum Pemrograman Berbasis Web.*
 
 **📸 Tampilan Hasil Project:**
-*(![Uploading image.png…]()
+*(<img width="1365" height="598" alt="image" src="https://github.com/user-attachments/assets/8eb050ec-8b2c-4ea0-b1cc-ee1da9f9335c" />
+
 )*
 
 ---
