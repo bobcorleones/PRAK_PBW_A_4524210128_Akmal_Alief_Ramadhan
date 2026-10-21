@@ -69,10 +69,11 @@ Tugas 2 Biodata
 ---
 
 ### 6. Tugas AuthBook
-*Deskripsi: Implementasi sistem autentikasi (Login/Register) dan manajemen data buku.*
+
 
 **📸 Tampilan Hasil Project:**
-*(Hapus teks ini -> Paste / Drag & Drop Screenshot web AuthBook di sini)*
+<img width="1365" height="589" alt="image" src="https://github.com/user-attachments/assets/78f69e03-ac77-4efb-b05b-35519cbb8c71" />
+
 
 ---
 
