@@ -2,7 +2,7 @@
 
 # "PRAKTIKUM PBW – A"
 
-*"Disusun Untuk Memenuhi Tugas Mata Kuliah Praktikum PBW A"*
+"Disusun Untuk Memenuhi Tugas Mata Kuliah Praktikum PBW A"
 
 <br>
 
