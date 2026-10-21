@@ -44,7 +44,8 @@ Tugas 2 Biodata
 
 
 **📸 Tampilan Hasil Project:**
-<img width="1365" height="595" alt="image" src="https://github.com/user-attachments/assets/38866e80-76ae-4634-8476-cf7a5ed86ef0" />
+<img width="1365" height="729" alt="image" src="https://github.com/user-attachments/assets/78da129d-5c27-4e62-93ea-1a172545b66e" />
+
 
 
 ---
