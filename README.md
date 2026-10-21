@@ -33,6 +33,8 @@ Berikut adalah hasil dari berbagai tugas praktikum beserta dokumentasi tampilann
 
 **📸 Tampilan Hasil Project:**
 <img width="1365" height="598" alt="image" src="https://github.com/user-attachments/assets/8eb050ec-8b2c-4ea0-b1cc-ee1da9f9335c" />
+<img width="1365" height="597" alt="image" src="https://github.com/user-attachments/assets/0ecbb2d1-e09e-4d62-a124-0c432f5eef1a" />
+
 
 
 ---
