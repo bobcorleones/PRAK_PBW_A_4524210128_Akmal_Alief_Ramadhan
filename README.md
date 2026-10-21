@@ -28,49 +28,4 @@ Bambang Riono Arsad, S.Kom., MMSI
 </div>
 
 
-# 💻 Praktikum Pemrograman Berbasis Web (PBW)
 
-Repository ini berisi kumpulan tugas praktikum mata kuliah Pemrograman Berbasis Web.
-
-## 👤 Identitas Mahasiswa
-- **Nama:** Akmal Alief Ramadhan
-- **NIM:** 4524210128
-- **Mata Kuliah:** Praktikum PBW (Kelas A)
-
----
-
-## 📂 Daftar Tugas & Hasil Project
-
-### 1. Tugas LaraPress
-*Lokasi direktori: `larapres` / `Pertemuan04_PBW`*  
-*Deskripsi: Membuat aplikasi blog/CMS sederhana menggunakan framework Laravel.*
-
-**📸 Tampilan Hasil Project:**
-*(Hapus teks ini -> Drag & Drop atau Paste Screenshot web LaraPress lu di sini)*
-
----
-
-### 2. Tugas 5 - SMP Mentari
-*Lokasi direktori: `SMP-Mentari_Tugas 5/SMP-Mentari`*  
-*Deskripsi: Membuat sistem informasi sekolah untuk SMP Mentari menggunakan Laravel.*
-
-**📸 Tampilan Hasil Project:**
-*(Hapus teks ini -> Drag & Drop atau Paste Screenshot web SMP Mentari lu di sini)*
-
----
-
-### 3. Tugas AuthBook
-*Lokasi direktori: `authbook/authbook`*  
-*Deskripsi: Membuat sistem autentikasi dan manajemen buku.*
-
-**📸 Tampilan Hasil Project:**
-*(Hapus teks ini -> Drag & Drop atau Paste Screenshot web AuthBook lu di sini)*
-
----
-
-## 🚀 Cara Menjalankan Project (Instalasi Lokal)
-Untuk menjalankan salah satu project Laravel yang ada di dalam repository ini, ikuti langkah berikut:
-
-1. Clone repository ini ke komputer lokal:
-   ```bash
-   git clone [https://github.com/bobcorleones/PRAK_PBW_A_4524210128_Akmal_Alief_Ramadhan.git](https://github.com/bobcorleones/PRAK_PBW_A_4524210128_Akmal_Alief_Ramadhan.git)
