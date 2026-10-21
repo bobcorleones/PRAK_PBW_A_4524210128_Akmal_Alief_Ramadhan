@@ -29,10 +29,11 @@
 Berikut adalah hasil dari berbagai tugas praktikum beserta dokumentasi tampilannya.
 
 ### 1 & 2. Tugas Kalkulator & Biodata
-*Deskripsi: Tugas dasar praktikum Pemrograman Berbasis Web.*
 
 **📸 Tampilan Hasil Project:**
+Tugas 1 Kalkulator
 <img width="1365" height="598" alt="image" src="https://github.com/user-attachments/assets/8eb050ec-8b2c-4ea0-b1cc-ee1da9f9335c" />
+Tugas 2 Biodata
 <img width="1365" height="597" alt="image" src="https://github.com/user-attachments/assets/0ecbb2d1-e09e-4d62-a124-0c432f5eef1a" />
 
 
