@@ -28,11 +28,12 @@
 
 Berikut adalah hasil dari berbagai tugas praktikum beserta dokumentasi tampilannya.
 
-### 1 & 2. Tugas Praktikum PBW (Dasar)
+### 1 & 2. Tugas Kalkulator & Biodata
 *Deskripsi: Tugas dasar praktikum Pemrograman Berbasis Web.*
 
 **📸 Tampilan Hasil Project:**
-*(Hapus teks ini -> Paste / Drag & Drop Screenshot tugas 1 dan 2 di sini)*
+*(![Uploading image.png…]()
+)*
 
 ---
 
