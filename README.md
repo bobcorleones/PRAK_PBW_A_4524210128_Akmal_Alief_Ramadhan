@@ -60,10 +60,11 @@ Tugas 2 Biodata
 ---
 
 ### 5. Tugas SMP Mentari
-*Deskripsi: Membangun sistem informasi sekolah (akademik/buku tamu) untuk SMP Mentari.*
+
 
 **📸 Tampilan Hasil Project:**
-*(Hapus teks ini -> Paste / Drag & Drop Screenshot web SMP Mentari di sini)*
+<img width="1361" height="729" alt="image" src="https://github.com/user-attachments/assets/6b5e6c9c-89e5-4ed4-bec3-be751f147c08" />
+
 
 ---
 
