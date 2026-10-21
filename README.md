@@ -41,7 +41,7 @@ Tugas 2 Biodata
 ---
 
 ### 3. Tugas LaraPress
-*Deskripsi: Membuat aplikasi sederhana (CMS/Blog) menggunakan framework Laravel.*
+
 
 **📸 Tampilan Hasil Project:**
 <img width="1365" height="595" alt="image" src="https://github.com/user-attachments/assets/38866e80-76ae-4634-8476-cf7a5ed86ef0" />
