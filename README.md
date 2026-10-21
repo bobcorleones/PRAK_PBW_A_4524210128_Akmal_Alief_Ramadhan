@@ -21,3 +21,56 @@
   UNIVERSITAS PANCASILA<br>
   2026-2027
 </h3>
+
+<hr>
+
+## 📂 Daftar Tugas & Dokumentasi Project
+
+Berikut adalah hasil dari berbagai tugas praktikum beserta dokumentasi tampilannya.
+
+### 1 & 2. Tugas Praktikum PBW (Dasar)
+*Deskripsi: Tugas dasar praktikum Pemrograman Berbasis Web.*
+
+**📸 Tampilan Hasil Project:**
+*(Hapus teks ini -> Paste / Drag & Drop Screenshot tugas 1 dan 2 di sini)*
+
+---
+
+### 3. Tugas LaraPress
+*Deskripsi: Membuat aplikasi sederhana (CMS/Blog) menggunakan framework Laravel.*
+
+**📸 Tampilan Hasil Project:**
+*(Hapus teks ini -> Paste / Drag & Drop Screenshot web LaraPress di sini)*
+
+---
+
+### 4. Tugas Pertemuan 04
+*Deskripsi: Latihan dan penugasan materi praktikum pertemuan keempat.*
+
+**📸 Tampilan Hasil Project:**
+*(Hapus teks ini -> Paste / Drag & Drop Screenshot web Pertemuan 04 di sini)*
+
+---
+
+### 5. Tugas SMP Mentari
+*Deskripsi: Membangun sistem informasi sekolah (akademik/buku tamu) untuk SMP Mentari.*
+
+**📸 Tampilan Hasil Project:**
+*(Hapus teks ini -> Paste / Drag & Drop Screenshot web SMP Mentari di sini)*
+
+---
+
+### 6. Tugas AuthBook
+*Deskripsi: Implementasi sistem autentikasi (Login/Register) dan manajemen data buku.*
+
+**📸 Tampilan Hasil Project:**
+*(Hapus teks ini -> Paste / Drag & Drop Screenshot web AuthBook di sini)*
+
+---
+
+## 🚀 Cara Menjalankan Project Laravel (Local Development)
+Jika ingin menjalankan project Laravel di repository ini (seperti LaraPress, SMP Mentari, atau AuthBook) pada komputer lokal, ikuti langkah berikut:
+
+1. Clone repository ini:
+   ```bash
+   git clone [https://github.com/bobcorleones/PRAK_PBW_A_4524210128_Akmal_Alief_Ramadhan.git](https://github.com/bobcorleones/PRAK_PBW_A_4524210128_Akmal_Alief_Ramadhan.git)
