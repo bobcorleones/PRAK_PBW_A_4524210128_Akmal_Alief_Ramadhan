@@ -9,13 +9,14 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class BookResource extends Resource
 {
     protected static ?string $model = Book::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-book-open';
-
     protected static ?string $navigationGroup = 'Library Management';
 
     public static function form(Form $form): Form
@@ -29,31 +30,26 @@ class BookResource extends Resource
                             ->required()
                             ->unique(ignoreRecord: true)
                             ->maxLength(255),
-
                         Forms\Components\TextInput::make('title')
                             ->required()
                             ->maxLength(255),
-
                         Forms\Components\Select::make('author_id')
                             ->relationship('author', 'name')
                             ->searchable()
                             ->preload()
-                            ->required()
-                            ->createOptionForm([
-                                Forms\Components\TextInput::make('name')
-                                    ->required()
-                                    ->maxLength(255),
-                            ]),
-
+                            ->required(),
+                        Forms\Components\Select::make('categories')
+                            ->relationship('categories', 'name')
+                            ->multiple()
+                            ->searchable()
+                            ->preload()
+                            ->required(),
                         Forms\Components\TextInput::make('publisher')
                             ->maxLength(255),
-
                         Forms\Components\TextInput::make('year')
                             ->numeric()
-                            ->minValue(1000)
-                            ->maxValue(date('Y'))
-                            ->step(1),
-
+                            ->minValue(1900)
+                            ->maxValue(date('Y')),
                         Forms\Components\Select::make('status')
                             ->options([
                                 'available' => 'Available',
@@ -61,8 +57,9 @@ class BookResource extends Resource
                             ])
                             ->required()
                             ->default('available'),
-                    ])
-                    ->columns(2),
+                        Forms\Components\Textarea::make('description')
+                            ->columnSpanFull(),
+                    ])->columns(2),
 
                 Forms\Components\Section::make('Cover Image')
                     ->schema([
@@ -83,42 +80,35 @@ class BookResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\ImageColumn::make('cover')
-                    ->circular()
-                    ->defaultImageUrl(url('/images/default-book-cover.png')),
-
+                    ->circular(),
                 Tables\Columns\TextColumn::make('isbn')
                     ->label('ISBN')
                     ->searchable()
                     ->sortable()
                     ->copyable(),
-
                 Tables\Columns\TextColumn::make('title')
                     ->searchable()
                     ->sortable()
                     ->limit(50),
-
                 Tables\Columns\TextColumn::make('author.name')
                     ->searchable()
                     ->sortable(),
-
                 Tables\Columns\TextColumn::make('publisher')
                     ->searchable()
                     ->toggleable(isToggledHiddenByDefault: true),
-
                 Tables\Columns\TextColumn::make('year')
                     ->sortable()
                     ->alignCenter(),
-
-                Tables\Columns\BadgeColumn::make('status')
-                    ->colors([
-                        'success' => 'available',
-                        'warning' => 'borrowed',
-                    ])
-                    ->icons([
-                        'heroicon-o-check-circle' => 'available',
-                        'heroicon-o-clock' => 'borrowed',
-                    ]),
-
+                Tables\Columns\TextColumn::make('status')
+                    ->badge()
+                    ->color(fn (string $state): string => match ($state) {
+                        'available' => 'success',
+                        'borrowed' => 'warning',
+                    })
+                    ->icon(fn (string $state): string => match ($state) {
+                        'available' => 'heroicon-o-check-circle',
+                        'borrowed' => 'heroicon-o-clock',
+                    }),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()
@@ -130,18 +120,6 @@ class BookResource extends Resource
                         'available' => 'Available',
                         'borrowed' => 'Borrowed',
                     ]),
-
-                Tables\Filters\SelectFilter::make('year')
-                    ->options(function () {
-                        $currentYear = date('Y');
-                        $years = [];
-                        for ($year = $currentYear; $year >= 1950; $year--) {
-                            $years[$year] = $year;
-                        }
-                        return $years;
-                    })
-                    ->searchable(),
-
                 Tables\Filters\SelectFilter::make('author')
                     ->relationship('author', 'name')
                     ->searchable()
