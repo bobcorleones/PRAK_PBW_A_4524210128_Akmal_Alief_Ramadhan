@@ -74,13 +74,13 @@ Bagian ini merupakan laporan lengkap untuk **AuthBook (Sistem Manajemen Buku)** 
 1. **Admin Panel Berhasil Login:** 
 <img width="1364" height="675" alt="image" src="https://github.com/user-attachments/assets/7cd3b9e0-bf0f-4784-a145-c10c87faaf46" />
 2. **List Books dengan Data Terseed:** 
-   > `[ MASUKKAN SCREENSHOT TABEL BUKU DI SINI ]`
+<img width="1358" height="681" alt="image" src="https://github.com/user-attachments/assets/89f2eaf8-6e70-4b1d-90b6-21909bb7956e" />
 3. **Form Create Book (Lengkap dengan Deskripsi & Kategori):** 
-   > `[ MASUKKAN SCREENSHOT FORM CREATE BOOK DI SINI ]`
+<img width="1365" height="678" alt="image" src="https://github.com/user-attachments/assets/1e901d15-daa3-4fa7-898a-a63616cb1d69" />
 4. **Hasil Pencarian (Search):** 
-   > `[ MASUKKAN SCREENSHOT PENCARIAN DI SINI ]`
+<img width="1365" height="670" alt="image" src="https://github.com/user-attachments/assets/d33aa276-72c6-4130-a57d-6d3de5179a05" />
 5. **Filter Aktif (Status & Author):** 
-   > `[ MASUKKAN SCREENSHOT FILTER DI SINI ]`
+<img width="1365" height="665" alt="image" src="https://github.com/user-attachments/assets/97806987-7401-4739-a188-3423df0a019b" />
 
 ### B. Fitur Tambahan & Pengembangan (Tugas 2)
 * **Field Description:** Menambahkan kolom `description` (tipe teks) pada tabel buku dan komponen `Textarea` di form Filament, di-generate menggunakan `fake()->paragraph()`.
