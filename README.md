@@ -72,7 +72,7 @@ Bagian ini merupakan laporan lengkap untuk **AuthBook (Sistem Manajemen Buku)** 
 
 ### A. Bukti Implementasi & Screenshot (Tugas 1 & 2)
 1. **Admin Panel Berhasil Login:** 
-   > `[ MASUKKAN SCREENSHOT LOGIN ADMIN DI SINI ]`
+<img width="1364" height="675" alt="image" src="https://github.com/user-attachments/assets/7cd3b9e0-bf0f-4784-a145-c10c87faaf46" />
 2. **List Books dengan Data Terseed:** 
    > `[ MASUKKAN SCREENSHOT TABEL BUKU DI SINI ]`
 3. **Form Create Book (Lengkap dengan Deskripsi & Kategori):** 
